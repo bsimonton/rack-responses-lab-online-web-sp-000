@@ -3,7 +3,8 @@ class Application
 
 def call (env)
   
-  response = Rack
+  response = Rack::Response.new 
+  
   
   
   
