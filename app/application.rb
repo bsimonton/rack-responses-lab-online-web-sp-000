@@ -8,7 +8,7 @@ def call (env)
   time = Time.now.hour 
   
   if time <= 12 
-    
+    resp.write
   
   
   
