@@ -1,6 +1,5 @@
 class Application
 
-
 def call (env)
   
   response = Rack::Response.new 
@@ -13,12 +12,6 @@ def call (env)
     resp.write "Good Afternoon!"
   end 
   
-  
-  
-end 
-  
-  
-  
-  
-  
+  resp.finish
+  end 
 end 
