@@ -5,7 +5,9 @@ def call (env)
   
   response = Rack::Response.new 
   
-  time = Tim
+  time = Time.now.hour 
+  
+  
   
   
   
